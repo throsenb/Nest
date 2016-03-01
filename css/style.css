@@ -1,0 +1,194 @@
+
+body {
+  background-image: -webkit-linear-gradient(#000010 0, #000010 50%, #000010 100%);
+  background-image: linear-gradient(to   , #000010 50%, #000010 100%); }
+
+h1, h2, h3 {
+  color: white;
+  line-height: 1.45;
+  text-shadow: 0px 0px 20px #000; }
+
+h1, h2 {
+  font-family: "Helvetica", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+h3 {
+  font-family: "Helvetica", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+.icons{
+  color:white;
+}
+.btn {
+  font-family: "Helvetica", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #438c8c;
+  width: 100%;
+  padding: 20px 40px;
+  max-width: 500px;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px; }
+
+.zone1, #egypt * .glyph-items {
+  position: relative;
+  z-index: 1; }
+
+.zone2 {
+  position: relative;
+  z-index: 2; }
+
+.zone3 {
+  position: relative;
+  z-index: 3; }
+
+.zone4, #trees * #trees-campfire {
+  position: relative;
+  z-index: 4; }
+
+.disappear {
+  opacity: 0; }
+
+section {
+  background-size: 100%;
+  padding: 20px;
+  background-size: cover;
+  background-position: bottom; 
+  background-color: #1a3636;
+}
+
+#intro {
+  background-image: url("../img/bg/nest-background-sky.png");
+  background-color: #ccc;
+  background-size: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat; }
+  #intro * #quill {
+    width: 100%;
+    max-width: 500px; }
+
+#trees {
+  padding: 0;
+  background-image: url("../img/bg/nest-background-tree.png");
+  background-color: #1a3636;
+  overflow: hidden; }
+  #trees * #trees-campfire {
+    max-width: 400px; }
+  #trees #trees-ground {
+    width: 100%;
+    min-width: 1200px;
+    margin-top: -300px; }
+
+#plans {
+  background-color: #112525; }
+  #plans * .row {
+    margin-bottom: 0; }
+    #plans * .row .col-xs-4 {
+      width: 50%;
+      padding: 0px;
+      margin: 0% -10%; }
+  #plans * .tribesPeople {
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: -20px; }
+
+#egypt {
+  background-color: black; }
+  #egypt * #pharoah {
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 5; }
+  #egypt * .glyph-items {
+    fill: #dd851d;
+    -webkit-animation-name: glow;
+    -moz-animation-name: glow;
+    animation-name: glow;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+@-webkit-keyframes glow {
+  from {
+    fill: #dd851d; }
+  to {
+    fill: #e8a24f; } }
+@-moz-keyframes glow {
+  from {
+    fill: #dd851d; }
+  to {
+    fill: #e8a24f; } }
+@keyframes glow {
+  from {
+    fill: #dd851d; }
+  to {
+    fill: #e8a24f; } }
+#moses {
+  padding: 0;
+  overflow: hidden;
+  background-image: url("../img/bg/treesBack.png"), -webkit-linear-gradient(#112525 0, #1a3636 100%);
+  background-image: url("../img/bg/treesBack.png"), linear-gradient(to   , #1a3636 100%); }
+  #moses * #mosesMoses {
+    margin-left: -100px;
+    width: 100%;
+    max-width: 1000px; }
+  #moses #moses-ground {
+    width: 100%;
+    min-width: 1200px;
+    margin-top: -300px; }
+
+#today {
+  background-image: url("../img/bg/todayBack.png");
+  background-image: url("../img/bg/todayBack.png");
+  background-color: #dd4e1d;
+  padding: 40vh 0; }
+
+#newscaster * #newscastMan {
+  margin-top: 10px;
+  margin-bottom: -180px;
+  z-index: 5; }
+#newscaster * #newscastTV {
+  width: 100%;
+  max-width: 1200px; }
+
+#ceos {
+  background-color: #112525; }
+  #ceos * .row {
+    margin-bottom: 0; }
+    #ceos * .row .col-xs-4 {
+      width: 51%;
+      padding: 0px;
+      margin: 0% -10%; }
+  #ceos * .ceos {
+    width: 100%;
+    margin-bottom: -20px; }
+  #ceos * .logos {
+    width: 100%;
+    max-width: 80px;
+    opacity: 0.5; }
+
+#you {
+  padding: 40vh 0;
+  background-image: url("../img/bg/treesBack.png"), -webkit-linear-gradient(#112525 0, #1a3636 100%);
+ }
+
+#end {
+  background-image: url("../img/bg/treesBack.png"), -webkit-linear-gradient(#112525 0, #1a3636 100%);
+  background-image: url("../img/bg/treesBack.png"), linear-gradient(to   , #1a3636 100%);
+  background-color: #1a3636;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+#cta {
+  background-image: url("../img/bg/todayBack.png");
+  background-image: url("../img/bg/todayBack.png");
+  background-color: #438c8c; }
+
+@media (max-width: 767px) {
+  .btn {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
