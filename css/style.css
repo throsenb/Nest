@@ -23,13 +23,22 @@ h1, h2, h3, h5 {
 
 .hero {
   text-align: center;
-  padding-top: 15%;
+  padding-top: 20%;
   color: #fff;
 }
 
 .hero h3 {
   font-weight: 300;
+  font-size: 1.5em;
+
 }
+
+.hero p {
+  font-weight: 300;
+  letter-spacing: 0.02em;
+
+}
+
 
 #crumb {
   font-size: 16px;
@@ -96,14 +105,45 @@ section {
 
 }
 
-#trees {
+#about {
+  background-color: #f2f2f2;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #666;
+  border-bottom: 1px solid #fff;
+}
+
+
+#about h3 {
+  color: #666;
+  font-weight: 200;
+}
+
+#about p {
+  color: #666;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#prop {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#two {
   padding: 0;
-  background-image: url("../img/bg/nest-background-tree.png");
+  background-image: url("../img/bg/rails.jpg");
   background-color: #1a3636;
   overflow: hidden; }
-  #trees * #trees-campfire {
+  #two * #trees-campfire {
     max-width: 400px; }
-  #trees #trees-ground {
+  #two #trees-ground {
     width: 100%;
     min-width: 1200px;
     margin-top: -300px; }
