@@ -7,11 +7,19 @@ body {
 
 }
 
-h1, h2, h3 {
+h1, h2, h3 , h4{
   color: #fff;
   line-height: 1.45;
   letter-spacing: 0.02em;
 }
+
+.reverse{
+  color:white;
+}
+.blank-list{
+  color:white;
+}
+.blank-list > li{list-style: none;}
 
 h1, h2, h3, h5 {
   font-family: "Gotham A", "Gotham B", Helvetica,sans-serif !important;
@@ -92,7 +100,7 @@ section {
   padding: 20px;
   background-size: cover;
   background-position: bottom; 
-  background-color: #1a3636;
+  background-color: #8ACACA;
 }
 
 #intro {
