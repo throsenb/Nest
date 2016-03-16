@@ -176,8 +176,35 @@ section {
   #plans * .tribesPeople {
     width: 100%;
     margin-top: 75px;
-    margin-bottom: -20px; }
+    margin-bottom: -20px; 
+  }
 
+.embed-container { 
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+ } 
+
+ .embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  -webkit-filter: sepia(50%); /* Chrome, Safari, Opera */
+    filter: sepia(50%);     
+    }
+#map{
+/*  -webkit-filter: grayscale(100%);
+/*    filter: grayscale(100%); */
+/*  -webkit-filter: sepia(100%);  
+    filter: sepia(100%); */    
+  /*-webkit-filter: brightness(100%); /* Chrome, Safari, Opera */*/
+    /*filter: brightness(100%);      */
+    /*opacity: .5;*/
+}
 #location {
   background-color: #ede1c5;
   color: #737a77;
