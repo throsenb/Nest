@@ -13,6 +13,15 @@ h1, h2, h3 , h4{
   letter-spacing: 0.02em;
   font-weight: 100;
 }
+a{
+  color:#54927c;
+}
+
+a{
+  color:#46c396;
+}
+
+
 
 .reverse{
   /*color:white;*/
@@ -20,7 +29,10 @@ h1, h2, h3 , h4{
 .blank-list{
   /*color:white;*/
 }
-.blank-list > li{list-style: none;}
+.blank-list > li{
+  list-style: none;
+  color:#C5A761;
+}
 
 h1, h2, h3, h5 {
   font-family: "Gotham A", "Gotham B", Helvetica,sans-serif !important;
@@ -32,7 +44,7 @@ h1, h2, h3, h5 {
 
 .hero {
   text-align: center;
-  padding-top: 20%;
+  padding-top: 12vh;
   color: #fff;
 }
 
@@ -75,7 +87,8 @@ h1, h2, h3, h5 {
   letter-spacing: 0.05em;
   font-weight: 300;
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px; 
+}
 
 .zone1, #location * .glyph-items {
   position: relative;
@@ -94,11 +107,13 @@ h1, h2, h3, h5 {
   z-index: 4; }
 
 .disappear {
-  opacity: 0; }
+  /*Add this back when SuperScrollarama can work*/
+  /*opacity: 0; */
+}
 
 section {
   background-size: 100%;
-  padding: 20px;
+  padding: 40px 0px;
   background-size: cover;
   background-position: bottom; 
   background-color: #8ACACA;
@@ -111,10 +126,11 @@ section {
   background-repeat: no-repeat;
   border-bottom: 1px solid #fff;
   background-image: url("../img/bg/nest-background-green.png");
+  background-size: cover;
 }
 
 #about {
-  background-color: #ede1c5;
+  background-color: #FDF7E8;
   color: #737a77;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -145,7 +161,7 @@ section {
 }
 
 #imagery {
-  padding: 50px 0px;
+  padding: 80px 0px;
   background-image: url("../img/bg/rails.jpg");
   background-color: #1a3636;
   border-bottom: 1px solid #fff;
@@ -162,6 +178,7 @@ section {
   background-color: #FFFDF7;
   color:#5D533E;
   border-bottom: 1px solid #fff;
+
    }
    #plans * p{
     color:#C5A761;
@@ -206,7 +223,7 @@ section {
     /*opacity: .5;*/
 }
 #location {
-  background-color: #ede1c5;
+  background-color: #FDF7E8;
   color: #737a77;
   border: solid 1px #fff; }
   #location * #pharoah {
@@ -250,9 +267,15 @@ section {
   background-color: #FFFDF7;
   color:#5D533E;
   overflow: hidden;
-  border: solid 1px #fff;
+  border-bottom: solid 1px #fff;
   /*background-image: url("../img/bg/treesBack.png"), -webkit-linear-gradient(#112525 0, #1a3636 100%);*/
   /*background-image: url("../img/bg/treesBack.png"), linear-gradient(to   , #1a3636 100%); */
+  }
+  #visit * .col-md-6:nth-of-type(2){
+    padding-top: 40px;
+  }
+  #visit * .col-md-6:nth-of-type(2) * a{
+    padding-top: 10px;
   }
   #visit * #visitvisit {
     margin-left: -100px;
@@ -268,12 +291,17 @@ section {
   background-image: url("../img/bg/nest-background-green.png");
   background-color: #609d88;
   color:#fff; 
-  border: solid 1px #fff;}
+  border-bottom: solid 1px #fff;
+}
 
+section:nth-child(even){
+  border:;
+}
 
 #footer{
   background-color: #717876;
   color:#fff;
+  padding: 20px 0px;
 }
 #footer * .btn-default{
   background-color: transparent;
@@ -291,6 +319,53 @@ section {
 
 }
 
+#footer * .social * a{
+  color:#fff;
+  text-decoration: none;
+  text-align: right;
+  float: right;
+  padding: 0px 10px;
+}
+
+.no-padding{
+  padding: 0px !important;
+}
+.modal-dialog {
+    width: 88%;
+  }
+.modal-content{
+  border-radius: 0px
+}
+.close{
+  color:#fff;
+  font-size: 50px;
+  opacity: 1;
+}  
+.modal-wrapper{
+  width: 80%;
+}
+.modal-header{
+  min-height: 0px;
+  border: none;
+}
+.mc-input{
+    width: 100%;
+    border: solid 1px #ccc;
+    padding: 9px;
+  }
+.modal-body{
+  min-height: 350px;
+}
+.modal-footer{
+  /*height: 1px;*/
+  opacity: 0;
+}
+
+#mc_embed_signup * .btn {
+  max-width: none;
+  margin-top: 32px;
+  margin-bottom: 15px;  
+}
 /* Overides the standard button */
 .highlight{
   background-color: #cf6b4d;
@@ -298,8 +373,8 @@ section {
   color:#fff;
   transition:.75s;
 }
-.highlight:hover{
-  background-color: #eb6840;
+.highlight:hover, .highlight:active{
+  background-color: #eb6840 !important;
   border: solid 1px #fff;
   color:#fff;  
 }
@@ -307,6 +382,13 @@ section {
 
 @media (max-width: 767px) {
   .btn {
-    font-size: 15px; } }
+    font-size: 15px; }  
+  #footer, #footer * .social * a{
+    text-align: center;
+    float: inherit;
+  }    
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
