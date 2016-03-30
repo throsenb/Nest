@@ -75,7 +75,8 @@
     background-image: url("../img/bg/nest-background-green.jpg");
     background-size: cover;
   }
-  .learn-more{color: #fff;}
+  .learn-more, .phone-call{color: #fff;}
+  .phone-call{text-decoration: underline;}
   .hero {
     text-align: center;
     padding-top: 12vh;
