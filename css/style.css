@@ -29,6 +29,11 @@
     list-style: none;
     color:#C5A761;
   }
+  .blank-list-dark > li{
+    color:#5D533E;
+    list-style: none;
+  }
+
   h1, h2, h3, h5 {
     font-family: "Gotham A", "Gotham B", Helvetica,sans-serif !important;
   }
@@ -67,6 +72,7 @@
     background-image: url("../img/bg/nest-background-green.jpg");
     background-size: cover;
   }
+  #intro * a{color: #fff;}
   .hero {
     text-align: center;
     padding-top: 12vh;
@@ -98,7 +104,7 @@
   }
   #about {
     background-color: #FDF7E8;
-    color: #737a77;
+    color: #5D533E;
     background-size: 100%;
     background-repeat: no-repeat;
     border-bottom: 1px solid #fff;
@@ -158,7 +164,7 @@
     border-bottom: 1px solid #fff;
      }
      #plans * p{
-      color:#C5A761;
+      color:#5D533E;
       font-size: 18px;
      }
     #plans * .row {
@@ -199,7 +205,7 @@
   }
   #location {
     background-color: #FDF7E8;
-    color: #737a77;
+    color: #5D533E;
     border: solid 1px #fff; }  
   #visit {
     padding: 0;
