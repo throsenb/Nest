@@ -15,7 +15,14 @@
     letter-spacing: 0.02em;
     font-weight: 300;
 
-  }  
+  }
+
+
+  #header-upper {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+  }
   a{color:#46c396;}
   .blank-list > li{
     list-style: none;
