@@ -98,8 +98,8 @@
     color: #fff;
   }
   #logo {
-    float: left;
-    max-width: 250px;
+    /*float: left;*/
+    /*max-width: 250px;*/
   }
 
   .disappear {
@@ -332,10 +332,23 @@
     border: solid 1px #fff;
     color:#fff;  
   }
+  .hidden-md * .phone-call {margin-top: 50px;}
   
 
 /* ### RESPONSIVE ### */
+@media (min-width: 991px) {
+  .phone-call-top{
+    float:right;
+    padding: 20px 0px 0px 0px;
+  }
+  #logo {
+    float: left;
+  }
+}
 @media (max-width: 991px) {
+  #logo * img{
+      margin: 0 0  auto;
+  }
   #plans * img{
     width: 200px;
     margin-bottom: -27px;
