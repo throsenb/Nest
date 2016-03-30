@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Favions -->
-    <!-- <link rel="apple-touch-icon" sizes="57x57" href="css/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="css/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="css/favicons/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="css/favicons/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="css/favicons/apple-touch-icon-76x76.png">
@@ -40,7 +40,7 @@
     <link rel="manifest" href="css/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="css/favicons/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff"> -->
+    <meta name="theme-color" content="#ffffff"> 
 
     <!-- ### Styling #### -->
 
@@ -79,10 +79,11 @@
                 <div class="hero col-md-12">
                   <h3 class="text-center">A workplace for builders.</h3>
                   <p class="text-center">Hatching in Raleigh May 2016.</p>
-                   <a class="typeform-share link btn btn-default text-center center-block" href="http://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Get Started</a>
+                   <a class="typeform-share link btn btn-default text-center center-block" href="http://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join Us</a>
+                   <a href="tel:19196176378" class="phone-call"><span itemprop="telephone">Call Us 919.617.6378</span></a>
                   <h5 class="text-center" id='crumb'>Learn More</h5>     
                   <h3 class="text-center"> 
-                    <a href="#learn-more" title="Learn More"><i class="fa fa-chevron-down"></i></a>
+                    <a href="#learn-more" title="Learn More" class="learn-more"><i class="fa fa-chevron-down"></i></a>
                   </h3> 
            	    </div>
                   
@@ -97,7 +98,16 @@
           <div class="container">
             <div class="copy">
               <span id='prop'>
-                <p>414 Fayetteville St. Raleigh, NC 27603</p>
+                <p>
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">
+                      414 Fayetteville St.
+                    </span>
+                    <span itemprop="addressLocality">Raleigh</span>
+                    <span itemprop="addressRegion">NC</span>
+                    <span itemprop="postalCode">27601</span>
+                  </div>  
+                </p>
               <hr>
 				<h3 class="text-center">A place where Raleigh's most creative thinkers build the future together.</h3>
         <a name="learn-more"></a>
@@ -285,31 +295,31 @@
           <div class="container">
               <h2 class="text-center">Upcoming Events:</h2>  
               <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 events">
                     <h3 class="text-center">Financial Mentorship Series</h3>
-                    <p class="text-center"> with Stephanie</p>
+                    <p class="text-center">Solanove</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 events">
                     <h3 class="text-center">Startup Weekend</h3>
                     <p class="text-center">Triangle Startup Weekend</p>
                 </div> 
-                <div class="col-md-4">
-                    <h3 class="text-center">Brave Creations Workshop</h3>
-                    <p class="text-center">Leigh Ann Smith at Brave Creations</p>
+                <div class="col-md-4 events">
+                    <h3 class="text-center">Advocacy Workshop Series</h3>
+                    <p class="text-center">Brave Creations</p>
                 </div>                                
               </div>  
               <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 events">
                     <h3 class="text-center">4th of July Party</h3>
                     <p class="text-center">The Nest</p>
                 </div>
-                <div class="col-md-4">
-                    <h3 class="text-center">The LIFT Foundation Workshop</h3>
-                    <p class="text-center">Stephanie from the Lift Foundation</p>
+                <div class="col-md-4 events">
+                    <h3 class="text-center">LIFT Development Workshop</h3>
+                    <p class="text-center">LIFT Foundation</p>
                 </div> 
-                <div class="col-md-4">
-                    <h3 class="text-center">Leadership Retreat</h3>
-                    <p class="text-center">Triangle AMA</p>
+                <div class="col-md-4 events">
+                    <h3 class="text-center">ExitEvent Social</h3>
+                    <p class="text-center">ExitEvent</p>
                 </div>                                
               </div>  
               <hr>
@@ -321,7 +331,7 @@
                     <p class="text-center">Business Consultant</p>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="http://betaboxlabs.com/" title="Betabox" target="_new">Betabox</h3>
+                    <h3 class="text-center"><a href="http://betaboxlabs.com/" title="Betabox" target="_new">Betabox</a></h3>
                     <p class="text-center">Mobile Makerspace Labs</p>
                 </div> 
                 <div class="col-md-4">
@@ -350,18 +360,18 @@
                     <p class="text-center">Startup</p>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-center">Reify Media</h3>
+                    <h3 class="text-center"><a href="http://reifymedia.com/" title="Reify Media" target="_new">Reify Media</a></h3>
                     <p class="text-center">Digital Media</p>
                 </div> 
                 <div class="col-md-4">
-                    <h3 class="text-center">This In and Out</h3>
-                    <p class="text-center">Get Description</p>
+                    <h3 class="text-center"><a href="https://thisendout.com/" title="This End Out" target="_new">This End Out</h3>
+                    <p class="text-center">Operations, Development, Infrastructure</p>
                 </div>                                
               </div>   
 
               <div class="row">
                 <div class="col-md-4">
-                    <h3 class="text-center">Mrearte Studio</h3>
+                    <h3 class="text-center"><a href="http://www.mrearte.com/" title="Mrearte Studio" target="_new">Mrearte Studio</a></h3>
                     <p class="text-center">Architect</p>
                 </div>
                 <div class="col-md-4">
@@ -369,7 +379,7 @@
                     <p class="text-center">Songwriting Consultant</p>
                 </div> 
                 <div class="col-md-4">
-                    <h3 class="text-center">Quillor</h3>
+                    <h3 class="text-center"><a href="http://www.quillor.com/" title="Quillor" target="_new">Quillor</a></h3>
                     <p class="text-center">Design Studio</p>
                 </div>                                
               </div>   
@@ -387,7 +397,7 @@
             <h4 class="text-center" id='header-upper'>Reserve a spot at The Nest today.</h4> 
 
             <a class="typeform-share link btn btn-default text-center center-block" href="http://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join the waitlist.</a>
-          
+            <p class="text-center"><a href="tel:19196176378" class="phone-call"><span itemprop="telephone">Call Us 919.617.6378</span></a></p>
      
 
           </div>
@@ -422,12 +432,24 @@
                    <a href="http://instagram.com/nest.raleigh"  target="_new" title="Follow Us On Instagram">
                       <i class="fa fa-instagram"></i>
                    </a>                               
-                </h3>            
+                </h3> 
+                <p>
+                  <span itemprop="telephone">919.617.6378</span>
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">
+                      414 Fayetteville St.
+                    </span>
+                    <span itemprop="addressLocality">Raleigh</span>
+                    <span itemprop="addressRegion">NC</span>
+                    <span itemprop="postalCode">27601</span>
+                  </div>  
+                </p>           
               </div>
             </div>
 
           </div>
         </div> 
+
     </section>    
 
 

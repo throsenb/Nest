@@ -22,9 +22,17 @@
     font-weight: 200;
     letter-spacing: 0.05em;
   }
+<<<<<<< HEAD
 
   
   a{color:#46c396;}
+=======
+  a{
+    color:#46c396;
+    text-decoration: none;
+  }
+  a:hover{color:#1E986C;}
+>>>>>>> 42ebeb778fb0798e70cdbd1cb7eb16506a616e15
   .blank-list > li{
     list-style: none;
     color:#C5A761;
@@ -72,7 +80,8 @@
     background-image: url("../img/bg/nest-background-green.jpg");
     background-size: cover;
   }
-  #intro * a{color: #fff;}
+  .learn-more, .phone-call{color: #fff;}
+  .phone-call{text-decoration: underline;}
   .hero {
     text-align: center;
     padding-top: 12vh;
@@ -243,8 +252,8 @@
   #community * h3{
     margin-bottom: -5px;
   }
-  #community * p{color:#C5A761;}
-
+  #community * p{color:#5D533E;}
+  #community * .events > p{color:#C5A761;}
   section:nth-child(even){
     border:;
   }
