@@ -55,7 +55,7 @@
     min-height: 100vh;
     background-repeat: no-repeat;
     border-bottom: 1px solid #fff;
-    background-image: url("../img/bg/nest-background-green.png");
+    background-image: url("../img/bg/nest-background-green.jpg");
     background-size: cover;
   }
   .hero {
@@ -117,19 +117,22 @@
     padding: 180px 0 180px 0;
     background-image: url("../img/bg/rails.jpg");
     border-bottom: 1px solid #fff;
+    background-color: #804618;
     color:#fff;
     overflow: hidden;
   }
   #brick {
     padding: 180px 0 180px 0;
-    background-image: url("../img/bg/brick.png");
+    background-image: url("../img/bg/brick.jpg");
+    background-color: #99927d;
     border-bottom: 1px solid #fff;
     color:#fff;
     overflow: hidden;
   }
   #sky {
     padding: 180px 0 180px 0;
-    background-image: url("../img/bg/sky.png");
+    background-image: url("../img/bg/sky.jpg");
+    background-color: #397194;
     border-bottom: 1px solid #fff;
     color:#fff;
     overflow: hidden;
@@ -213,7 +216,7 @@
     min-width: 1200px;
     margin-top: -300px; }
   #cta {
-    background-image: url("../img/bg/nest-background-green.png");
+    background-image: url("../img/bg/nest-background-green.jpg");
     background-color: #609d88;
     color:#fff; 
     border-bottom: solid 1px #fff;
