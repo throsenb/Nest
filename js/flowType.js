@@ -55,11 +55,11 @@ console.log("flowtype.js is installed");
 
 
       $('h1').flowtype({
-         minimum   : 100,
+         minimum   : 40,
          maximum   : 1400,
-         minFont   : 40,
+         minFont   : 24,
          maxFont   : 100,
-         fontRatio : 8
+         fontRatio : 12
       });
 
 
@@ -67,20 +67,42 @@ console.log("flowtype.js is installed");
       $('h2').flowtype({
          minimum   : 100,
          maximum   : 700,
-         minFont   : 30,
+         minFont   : 18,
          maxFont   : 50,
-         fontRatio : 8
+         fontRatio : 12
       });
 
 
       $('h3').flowtype({
          minimum   : 100,
          maximum   : 400,
-         minFont   : 20,
+         minFont   : 12,
          maxFont   : 30,
-         fontRatio : 8
+         fontRatio : 12
       });
 
+      $('#community * h3').flowtype({
+         minimum   : 100,
+         maximum   : 400,
+         minFont   : 15,
+         maxFont   : 20,
+         fontRatio : 12
+      });
+
+      $('#community * p').flowtype({
+         minimum   : 100,
+         maximum   : 400,
+         minFont   : 8,
+         maxFont   : 13,
+         fontRatio : 12
+      });
+      $('#plans * p').flowtype({
+         minimum   : 100,
+         maximum   : 400,
+         minFont   : 8,
+         maxFont   : 13,
+         fontRatio : 12
+      });
 
 console.log("flowtype.js is ended");
 
