@@ -132,6 +132,7 @@
     padding: 180px 0 180px 0;
     background-image: url("../img/bg/rails.jpg");
     border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
     background-color: #804618;
     color:#fff;
     overflow: hidden;
@@ -255,7 +256,7 @@
   }
   #footer * .btn-default{
     background-color: transparent;
-    border: solid 2px #fff;
+    border: solid 1px #fff;
     margin-top: 20px;
     color:#fff;
     transition: .75s;
@@ -263,7 +264,7 @@
   }
   #footer * .btn-default:hover{
     background-color: #fff;
-    border: solid 2px #fff;
+    border: solid 1px #fff;
     margin-top: 20px;
     color: #717876;
 
