@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- gotham font, test -->
-<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6567694/6343152/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="http://cloud.typography.com/6567694/6343152/css/fonts.css" />
 
     <!-- SEO -->
     <TITLE>The Nest</TITLE>
-    <META NAME="author" CONTENT="Tim Rosenberg">
+    <!-- <META NAME="author" CONTENT="Tim Rosenberg"> -->
     <META NAME="subject" CONTENT="Coworking ">
     <META NAME="Description" CONTENT="The Nest is a coworking space in downtown Raleigh for startups.">
     <META NAME="Keywords" CONTENT="The Nest, Coworking, Raleigh ">
@@ -18,10 +18,11 @@
     <META NAME="Copyright" CONTENT="Nest Raleigh, LLC">
     <META NAME="distribution" CONTENT="Global">
     <META NAME="Robots" CONTENT="INDEX,FOLLOW">
-    <META NAME="zipcode" CONTENT="27610">
+    <META NAME="zipcode" CONTENT="27601">
     <META NAME="city" CONTENT="Raleigh">
     <META NAME="country" CONTENT="USA">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta property="og:image" content="http://nestraleigh.com/img/nest-facebook.jpg" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Favions -->
     <link rel="apple-touch-icon" sizes="57x57" href="css/favicons/apple-touch-icon-57x57.png">
@@ -44,23 +45,63 @@
 
     <!-- ### Styling #### -->
 
+    <!-- Tracking -->
+      <!-- Facebook Pixel Code -->
+      <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '987246504703081');
+      fbq('track', "PageView");</script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=987246504703081&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Facebook Pixel Code -->
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75966918-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>    
+
+      <!-- Begin Inspectlet Embed Code -->
+      <script type="text/javascript" id="inspectletjs">
+      window.__insp = window.__insp || [];
+      __insp.push(['wid', 1656982414]);
+      (function() {
+      function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+      setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+      })();
+      </script>
+      <!-- End Inspectlet Embed Code -->    
+    <!-- /Tracking    -->
+
 
 
 
   <!--   Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- SASS Styling -->
 	<link rel="stylesheet" href="css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 
   <!-- TypeFlow -->
   <script src="js/flowType.js"></script>
+
   </head>
   <body>
 
@@ -68,10 +109,10 @@
 
     <section id="intro" class="container-fluid">
         <div class="content">
-          <div class="container">
+          <div class="container"> 
               <div class="row hidden-sm hidden-xs">
                 <div id="logo" class="col-md-3">
-                  <a href="https://nestraleigh.com" title="Visit Us at NestRaleigh.com &amp;"><img id="nest" src="img/nest-logo.png" alt="Nest Raleigh Logo" class="img-responsive"></a>
+                  <a href="http://nestraleigh.com" title="Visit Us at NestRaleigh.com &amp;"><img id="nest" src="img/nest-logo.png" alt="Nest Raleigh Logo" class="img-responsive"></a>
                 </div>
                 <div class="col-md-3 col-md-push-6">
                     <a href="tel:19196176378" class="phone-call phone-call-top "><span itemprop="telephone">Call Us 919.617.6378</span></a>
@@ -79,7 +120,7 @@
               </div>
               <div class="row hidden-md hidden-lg">
                 <div class="col-md-12">
-                  <a href="https://nestraleigh.com" title="Visit Us at NestRaleigh.com &amp;"><img id="nest" src="img/nest-logo.png" alt="Nest Raleigh Logo" class="img-responsive center-block"></a>
+                  <a href="http://nestraleigh.com" title="Visit Us at NestRaleigh.com &amp;"><img id="nest" src="img/nest-logo.png" alt="Nest Raleigh Logo" class="img-responsive center-block"></a>
                 </div>
                 <div class="col-md-3 col-md-push-6">                    
                     <p class="center-block text-center"><a href="tel:19196176378" class="phone-call phone-call-top center-block text-center "><span itemprop="telephone">Call Us 919.617.6378</span></a></p>
@@ -89,7 +130,7 @@
                 <div class="hero col-md-12">
                   <h3 class="text-center">A workplace for builders.</h3>
                   <p class="text-center">Hatching in Raleigh May 2016.</p>
-                   <a class="typeform-share link btn btn-default text-center center-block" href="https://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join Us</a>                   
+                   <a class="typeform-share link btn btn-default text-center center-block" href="http://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join Us</a>                   
                   <h5 class="text-center" id='crumb'>Learn More</h5>     
                   <h3 class="text-center"> 
                     <a href="#learn-more" title="Learn More" class="learn-more"><i class="fa fa-chevron-down"></i></a>
@@ -107,7 +148,7 @@
           <div class="container">
             <div class="copy">
               <span id='prop'>
-                  <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                  <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <span itemprop="streetAddress">
                       414 Fayetteville St.
                     </span>
@@ -222,10 +263,10 @@
              
             <div class="col-md-8">
               <div class='hidden-md hidden-lg'>
-                <a target="_new" href="https://www.google.com/maps/@35.7751754,-78.6393699,3a,90y,268.58h,90.43t/data=!3m6!1e1!3m4!1srZ3hqpDOhEnzczFl6sP5yQ!2e0!7i13312!8i6656" title="Take A Peek"><img src="img/gmap.png" alt="Take A Peek" class="img-responsive"></a>
+                <a target="_new" href="http://www.google.com/maps/@35.7751754,-78.6393699,3a,90y,268.58h,90.43t/data=!3m6!1e1!3m4!1srZ3hqpDOhEnzczFl6sP5yQ!2e0!7i13312!8i6656" title="Take A Peek"><img src="img/gmap.png" alt="Take A Peek" class="img-responsive"></a>
               </div>
               <div class='embed-container hidden-sm hidden-xs'>
-              <iframe width='100%' height='10vh' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' id='map' src='https://my.ctrlq.org/maps/#street|1|-84.48858998230959|8.471102365117204|35.77520762502683|-78.63937589518521'></iframe> 
+              <iframe width='100%' height='10vh' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' id='map' src='http://my.ctrlq.org/maps/#street|1|-84.48858998230959|8.471102365117204|35.77520762502683|-78.63937589518521'></iframe> 
             </div> 
 
             </div>
@@ -262,7 +303,7 @@
                 
                 <h3 class="text-center">Book a tour with us</h3> 
 
-                <a href="https://calendly.com/nestraleigh/tours"  target="_new" class="btn btn-default highlight text-center center-block">Book a Tour</a>
+                <a href="http://calendly.com/nestraleigh/tours"  target="_new" class="btn btn-default highlight text-center center-block">Book a Tour</a>
                                          
                              
               </div>              
@@ -281,7 +322,7 @@
            <h4 class="text-center" id="header-upper">Ready to get started?</h4> 
             <h2 class="text-center">Reserve a spot at the Nest</h2>
 
-            <a class="typeform-share link btn btn-default text-center center-block" href="https://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join the waitlist.</a>
+            <a class="typeform-share link btn btn-default text-center center-block" href="http://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join the waitlist.</a>
           
      
           </div>
@@ -333,16 +374,16 @@
             <h2 class="text-center">Member Highlights</h2>  
               <div class="row">
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://sakasandcompany.com/" title="Sakas and Company" target="_new">Sakas and Company</a></h3>
+                    <h3 class="text-center"><a href="http://sakasandcompany.com/" title="Sakas and Company" target="_new">Sakas and Company</a></h3>
                     <p class="text-center">Business Consultant</p>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://betaboxlabs.com/" title="Betabox" target="_new">Betabox</a></h3>
+                    <h3 class="text-center"><a href="http://betaboxlabs.com/" title="Betabox" target="_new">Betabox</a></h3>
                     <p class="text-center">Mobile Makerspace Labs</p>
                 </div> 
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://bandcamp.com/" title="Band Camp" target="_new">Band Camp</a></h3>
-                    <p class="text-center">Music Software</p>
+                    <h3 class="text-center"><a href="http://bandcamp.com/" title="Band Camp" target="_new">Bandcamp</a></h3>
+                    <p class="text-center">Direct-to-fan music retailer</p>
                 </div>                                
               </div> 
               <div class="row">
@@ -351,11 +392,11 @@
                     <p class="text-center">Social Media &amp; Video </p>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://www.anagard.com/" title="ANAGARD" target="_new">ANAGARD</a></h3>
+                    <h3 class="text-center"><a href="http://www.anagard.com/" title="ANAGARD" target="_new">ANAGARD</a></h3>
                     <p class="text-center">Business Growth Consulting</p>
                 </div> 
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://www.bravecreations.us/" title="Brave Creations" target="_new">Brave Creations</a></h3>
+                    <h3 class="text-center"><a href="http://www.bravecreations.us/" title="Brave Creations" target="_new">Brave Creations</a></h3>
                     <p class="text-center">Public Relations</p>
                 </div>                                
               </div>  
@@ -366,18 +407,18 @@
                     <p class="text-center">Startup</p>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://reifymedia.com/" title="Reify Media" target="_new">Reify Media</a></h3>
+                    <h3 class="text-center"><a href="http://reifymedia.com/" title="Reify Media" target="_new">Reify Media</a></h3>
                     <p class="text-center">Digital Media</p>
                 </div> 
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://thisendout.com/" title="This End Out" target="_new">This End Out</h3>
+                    <h3 class="text-center"><a href="http://thisendout.com/" title="This End Out" target="_new">This End Out</h3>
                     <p class="text-center">Operations, Development, Infrastructure</p>
                 </div>                                
               </div>   
 
               <div class="row">
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://www.mrearte.com/" title="Mrearte Studio" target="_new">Mrearte Studio</a></h3>
+                    <h3 class="text-center"><a href="http://www.mrearte.com/" title="Mrearte Studio" target="_new">Mrearte Studio</a></h3>
                     <p class="text-center">Architect</p>
                 </div>
                 <div class="col-md-4">
@@ -385,7 +426,7 @@
                     <p class="text-center">Songwriting Consultant</p>
                 </div> 
                 <div class="col-md-4">
-                    <h3 class="text-center"><a href="https://www.quillor.com/" title="Quillor" target="_new">Quillor</a></h3>
+                    <h3 class="text-center"><a href="http://www.quillor.com/" title="Quillor" target="_new">Quillor</a></h3>
                     <p class="text-center">Design Studio</p>
                 </div>                                
               </div>   
@@ -401,7 +442,7 @@
             <h2 class="text-center">You could be our next member </h2>
             <h3 class="text-center">Reserve a spot at the Nest</h3> 
 
-            <a class="typeform-share link btn btn-default text-center center-block" href="https://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join the waitlist.</a>
+            <a class="typeform-share link btn btn-default text-center center-block" href="http://goo.gl/forms/ikuDXJr3xq" data-mode="1" target="_blank">Join the waitlist.</a>
             <p class="text-center"><a href="tel:19196176378" class="phone-call"><span itemprop="telephone">Call Us 919.617.6378</span></a></p>
      
 
@@ -430,19 +471,19 @@
               </div>
               <div class="col-md-4 social">
                 <h3 class="">
-                   <a href="https://facebook.com/nestraleigh"  target="_new" title="Follow Us On Facebook">
+                   <a href="http://facebook.com/nestraleigh"  target="_new" title="Follow Us On Facebook">
                       <i class="fa fa-facebook"></i>
                    </a> 
-                   <a href="https://twitter.com/nestraleigh"  target="_new" title="Follow Us On Twitter">
+                   <a href="http://twitter.com/nestraleigh"  target="_new" title="Follow Us On Twitter">
                       <i class="fa fa-twitter"></i>
                    </a> 
-                   <a href="https://instagram.com/nest.raleigh"  target="_new" title="Follow Us On Instagram">
+                   <a href="http://instagram.com/nest.raleigh"  target="_new" title="Follow Us On Instagram">
                       <i class="fa fa-instagram"></i>
                    </a>                               
                 </h3> 
                 <p>
                   <span itemprop="telephone">919.617.6378</span>
-                  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <span itemprop="streetAddress">
                       414 Fayetteville St.
                     </span>
@@ -519,7 +560,7 @@
 	            	<img src="img/Quillor-Illustration.png" style="width:100%" />
 	            </div>	            
             </div>
-                <a href="https://quillor.com/home/portfolio" class="btn btn-default text-center center-block" style="margin-bottom:-100px;">
+                <a href="http://quillor.com/home/portfolio" class="btn btn-default text-center center-block" style="margin-bottom:-100px;">
                 	<i class="fa fa-envelope-square"></i> Visit Us Our Work
                 </a>
           </div>
@@ -534,17 +575,17 @@
 
 
   <!-- jQuery  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Boostrap.js -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <!-- FlowType.js Makes responsive text sizes -->
   <script src="js/flowType.js"></script>
 
-  <script type="text/javascript" src="https://modernizr.com/downloads/modernizr-latest.js"></script>
+  <script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>
   <script type="text/javascript" src="js/scrollarama/iscroll.js"></script>
   <script type="text/javascript" src="js/scrollarama/polyfill.requestAnimationFrame.js"></script>
   <script type="text/javascript" src="js/scrollarama/greensock/TweenMax.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="_/js/jquery-1.9.1.min.js"><\/script>')</script>
   <script src="js/scrollarama/jquery.superscrollorama.js"></script>
 
@@ -622,10 +663,10 @@
       /* MOBILE IMPLEMENTATION OF SUPERSCROLLORAMA */
       if (Modernizr.touch) {
         var scrollPos = 0;
-        // using iScroll but deacting -webkit-transform because pin wouldn't work becasue of a webkit bug: https://code.google.com/p/chromium/issues/detail?id=20574
+        // using iScroll but deacting -webkit-transform because pin wouldn't work becasue of a webkit bug: http://code.google.com/p/chromium/issues/detail?id=20574
         var myScroll = new iScroll('viewport-wrapper', {vScrollbar: true, hScroll: false, vScroll: true, bounce: false, useTransform: false, useTransition: false});
         function animationLoop () {
-          // make sure to have the requestAnimationFrame polyfill by Paul Irish: https://gist.github.com/paulirish/1579671
+          // make sure to have the requestAnimationFrame polyfill by Paul Irish: http://gist.github.com/paulirish/1579671
           window.requestAnimationFrame(animationLoop);
           if (myScroll.y != scrollPos) { // if position has changed
             scrollPos = myScroll.y;
@@ -648,7 +689,7 @@
  <!-- Type form -->
 
 
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='http://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
 
 
@@ -658,7 +699,7 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-wrapper center-block">
     <div class="modal-header no-padding">
-       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="https://s3-eu-west-1.amazonaws.com/share.typeform.com/close.gif"></button>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="http://s3-eu-west-1.amazonaws.com/share.typeform.com/close.gif"></button>
     </div>
     <div class="modal-dialog">
       <div class="modal-content">
